@@ -1,12 +1,10 @@
-from django.urls import path
+ffrom django.urls import path
 
-from catalog.views import index
-
-from catalog.views import catalog
+from catalog.views import index, contacts
 
 
 
 urlpatterns = [
     path(' ', index),
-    path('catalog/', control_2)
+    path('contacts', contacts)
 ]
